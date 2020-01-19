@@ -1,0 +1,101 @@
+.body{
+    padding: 20px; 
+}
+.body-bg{
+    background: #eee; 
+}
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+.side-bar{
+    background: #fff; 
+    height: 100%;
+}
+.side-bar>.nav-header{
+    padding: 15px 0 20px 0 !important;
+}
+.side-bar>.active>a{
+    background-color: #56ac24;
+}
+.side-bar>li{
+    padding: 0 60px !important;
+    line-height: 22px;
+}
+.side-bar>li>.btn{
+    text-align: left;
+}
+.icon{
+    opacity: 0.5;
+}
+.head{
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-bottom: 5px !important;
+}
+.sub-head{
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 20px;
+    color: #f89406;
+    padding: 10px 0;
+}
+.head-section{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+.content-section{
+    margin-top: 5px !important;
+}
+.text-light{
+    color: #979797;
+}
+.mt-10{
+    margin-top: 20px;
+}
+.bg-white{
+    background-color: #FFFFFF;
+    padding: 10px;
+}
+.bg-green{
+    background-color: #56ac24;
+    padding: 10px;
+    color: #ffffff;
+}
+.text-lighter{
+    font-weight: lighter;
+    color: #cccccc;
+}
+.text-orange{
+    color: #df8505;
+}
+#income_filter, #expense_filter, #transection_filter{
+    display: none !important;   
+}
+#income_wrapper > .row, #expense_wrapper > .row,  #transection_wrapper > .row{
+    margin-left: 1px !important;
+}
+table#income>thead, table#expense>thead{
+    background-color: #56ac24;
+    color: #ffffff;
+}
+table#income>thead>th, table#expense>thead>th{
+    float: none;
+    text-align: center;
+}
+.td-right{
+    text-align: right;
+    padding-right: 10px;
+}
+.text-bold{
+    font-weight: bold;
+}
+table#income>tbody>tr:last-child, table#expense>tbody>tr:last-child{
+    background-color: #e8e8e8;
+}
+.table-bordered{
+    border-left: 1px solid #ddd;
+}
+.form-search{
+    margin-bottom: 10px;
+}
